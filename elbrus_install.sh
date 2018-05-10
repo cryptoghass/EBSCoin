@@ -28,7 +28,7 @@ NC='\033[0m'
 purgeOldInstallation() {
     echo "Searching and removing old masternode files and configurations"
     #kill wallet daemon
-	systemctl stop $COIN_NAME.service
+#	systemctl stop $COIN_NAME.service
     sudo killall ebsd > /dev/null 2>&1
     #remove old ufw port allow
     sudo ufw delete allow 51582/tcp > /dev/null 2>&1
