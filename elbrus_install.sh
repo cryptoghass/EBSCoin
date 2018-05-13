@@ -11,7 +11,7 @@ COIN_TGZ='https://github.com/Elbruscurrency/EBSCoin/releases/download/v1.0.3/ebs
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Elbrus'
 COIN_PORT=51582
-RPC_PORT=51581
+RPC_PORT=51583
 
 NODEIP=$(curl -s4 icanhazip.com)
 
